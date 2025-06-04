@@ -55,6 +55,3 @@ void merge_sort_generic(void *arr, size_t n, size_t element_size, int (*cmp)(con
 }
 
 
-int main(void) {
-    return 0;
-}
