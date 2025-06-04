@@ -2,6 +2,9 @@
 #include <stdlib.h>;
 #include <stdbool.h>;
 #include <assert.h>
+#include "merge_sort_generic.h"
+
+// for more documentation see merge_sort_generic.h
 
 void merge_generic(void *dest, const void *src1, const void *src2, size_t len1, size_t len2, int (*cmp)(const void *, const void *), size_t element_size) {
     assert(dest);
