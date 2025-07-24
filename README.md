@@ -1,15 +1,15 @@
-🧮 libmsort: Generic Merge Sort Library in C
+libmsort: Generic Merge Sort Library in C
 
 This library provides a **type-agnostic, generic merge sort** implementation in C using function pointers and manual memory handling. It demonstrates low-level data manipulation, pointer arithmetic, and functional design — all without relying on `qsort`.
 
-🔧 Features
+Features
 
-- 🔁 Supports sorting arrays of **any data type** (integers, floats, structs, etc.)
-- 💡 Requires only a **comparison function** to sort custom data types
-- 🛠️ Replaces `memcpy` with a custom `my_memcpy` implementation
-- 💻 Pure C — portable and dependency-free
+- Supports sorting arrays of **any data type** (integers, floats, structs, etc.)
+- Requires only a **comparison function** to sort custom data types
+- Replaces `memcpy` with a custom `my_memcpy` implementation
+- Pure C — portable and dependency-free
 - 
-✨ How It Works
+How It Works
 
 - **`merge_sort_generic(arr, n, element_size, cmp)`**  
   Recursively divides the array and merges sorted halves.
@@ -20,7 +20,7 @@ This library provides a **type-agnostic, generic merge sort** implementation in 
 - **`my_memcpy(dest, src, n)`**  
   Custom byte-wise memory copy function for portability and learning.
 
-📌 Usage Example
+Usage Example
 
 ```c
 #include <stdio.h>
