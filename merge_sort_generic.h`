@@ -1,0 +1,3 @@
+// Introduce typedef for comparison function pointer.
+
+typedef int (*CompareFunc)(const void*, const void*);
