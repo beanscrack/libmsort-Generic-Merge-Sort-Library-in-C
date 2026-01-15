@@ -1,0 +1,3 @@
+// This refactoring introduces a typedef for the comparison function pointer
+// to enhance readability and maintainability. It also renames variables
+// for clarity and better understanding of their purpose.
